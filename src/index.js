@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+//import App from './App';
 import * as serviceWorker from './serviceWorker';
+
+function MyInfo() {
+  return(<h1>Sharon</h1>)
+}
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MyInfo />
   </React.StrictMode>,
   document.getElementById('root')
 );
